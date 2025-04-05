@@ -36,7 +36,7 @@ See the above guides for troubleshooting and solutions.
 
 ## Project Outline
 
-[Go to Introduction and Background](https://github.com/Data-Git-Hub/ml_regression_data-git-hub/blob/main/ml-07.ipynb#introduction-and-background)
+[Introduction and Background](https://github.com/Data-Git-Hub/ml_regression_data-git-hub/blob/main/ml-07.ipynb#introduction-and-background)
 
 ### Analytical Framework and Methodology
 
@@ -50,7 +50,8 @@ See the above guides for troubleshooting and solutions.
 
 #### Expected Outcomes and Significance
 
-### Section 1: Import and Inspect the Data
+[Section 1: Import and Inspect the Data](https://github.com/Data-Git-Hub/ml_regression_data-git-hub/blob/main/ml-07.ipynb#section-1-import-and-inspect-the-data)
+
 
 #### 1.1. Load the Dataset and Display the First 10 Rows.
 
@@ -172,6 +173,7 @@ Contributors names and contact info <br>
 @github.com/Data-Git-Hub <br>
 
 ## Version History
+- P6 Sect - 2.1 - Modify README.md adding links to Sections
 - P6 Sect - 2.0 - Modify README.md adding links to sections of ml-07.ipynb, Section 2
 - P6 Sect - 1.0 - Add data folder, life_expectancy_data.csv - Modify ml-07.ipynb - Intro, Section 1
 - P6 Init - 0.3 - Add peer_review.md - Modify README.md
