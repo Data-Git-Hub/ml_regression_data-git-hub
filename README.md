@@ -36,9 +36,103 @@ See the above guides for troubleshooting and solutions.
 
 ## Project Outline
 
+[Go to Introduction and Background](https://github.com/Data-Git-Hub/ml_regression_data-git-hub/blob/main/ml-07.ipynb#introduction-and-background)
+
+### Analytical Framework and Methodology
+
+#### Exploratory Data Analysis (EDA)
+
+#### Data Preparation and Preprocessing
+
+#### Feature Selection and Engineering
+
+#### Regression Modeling Techniques
+
+#### Expected Outcomes and Significance
+
 ### Section 1: Import and Inspect the Data
 
+#### 1.1. Load the Dataset and Display the First 10 Rows.
+
+#### 1.2. Check for Missing Values and Display Summary Statistics.
+
+##### 1.2.1. Missing Values and Percentage
+
+##### 1.2.2. Display Summary Statistics
+
+### Reflection 1: What do you notice about the dataset? Are there any data issues?
+
 ### Section 2. Data Exploration and Preparation
+
+#### 2.1. Explore Data Patterns and Distribution
+
+##### 2.1.1. Create Histograms, Box Plots, and Count Plots for Categorical Variables
+
+##### 2.1.1.1. Grouped Histogram
+
+##### 2.1.1.2. Grouped Box Plot
+
+##### 2.1.1.3. Development Status Count Plot
+
+##### 2.1.1.4. GDP Level Count Plot
+
+##### 2.1.1.5. Year Group Count Plot
+
+##### 2.1.2. Identify Patterns, Outliers, and Anomalies in Feature Distributions
+
+##### 2.1.2.1. Identify Patterns in Feature Distributions
+
+##### 2.1.2.1.A. Identify Patterns in Feature Distribution Pair Plots
+
+##### 2.1.2.2. Identify Outliers in Feature Distributions
+
+##### 2.1.2.2.A. Visualizing Feature Distributions with Violin Plots
+
+##### 2.1.2.3. Identify Anomalies in Feature Distributions
+
+##### 2.1.3. Check for Class Imbalance in the Target Variable
+
+#### 2.2. Handle Missing Values and Clean Data
+
+##### 2.2.1. Impute or Drop Missing Values
+
+##### 2.2.2. Remove or Transform Outliers 
+
+##### 2.2.3. Convert Categorical Data to Numerical Format Using Encoding
+
+#### 2.3. Feature Selection and Engineering
+
+##### 2.3.1. Create New Features
+
+##### 2.3.1.1. Health Investment Ratio
+
+##### 2.3.1.2. Child Mortality Burden
+
+##### 2.3.1.3. Mean Immunization Rate
+
+##### 2.3.1.4. HIV Impact Score
+
+##### 2.3.1.5. Education-Adjusted Economic Index
+
+##### 2.3.2. Transform or Combine Existing Features to Improve Model Performance 
+
+##### 2.3.2.1. Feature Correlation Analysis to Assess Multicollinearity
+
+##### 2.3.2.2. Drop Highly Correlated Features
+
+##### 2.3.2.3 Combine Correlated Features into Interaction Terms or Composite Indicators
+
+##### 2.3.2.3.A. Combine Adult Mortality and HIV/AIDS
+
+##### 2.3.2.3.B. Combine Schooling and Income Composition of Resources
+
+##### 2.3.3. Scale or Normalize Data
+
+##### 2.3.3.1 Scale Data (Standardization)
+
+##### 2.3.3.2 Normalize Data (Min-Max Normalization)
+
+### Reflection 2: What patterns or anomalies do you see? Do any features stand out? What preprocessing steps were necessary to clean and improve the data? Did you create or modify any features to improve performance?
 
 ### Section 3. Feature Selection and Justification
 
@@ -78,6 +172,7 @@ Contributors names and contact info <br>
 @github.com/Data-Git-Hub <br>
 
 ## Version History
+- P6 Sect - 2.0 - Modify README.md adding links to sections of ml-07.ipynb, Section 2
 - P6 Sect - 1.0 - Add data folder, life_expectancy_data.csv - Modify ml-07.ipynb - Intro, Section 1
 - P6 Init - 0.3 - Add peer_review.md - Modify README.md
 - P6 Init - 0.2 - Add ml-07 framework - Modify README.md - Modify requirements.txt - Modify .gitignore
