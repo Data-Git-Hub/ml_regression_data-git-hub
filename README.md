@@ -44,9 +44,9 @@ We will use this approach throughout the course.
 
 ### Section 3. Feature Selection and Justification
 
-### Section 4. Train a Model (Classification: Decision Tree, Random Forest, Logistic Regression)
+### Section 4. Train a Model (Linear Regression)
 
-### Section 5. Improve the Model
+### Section 5. Improve the Model or Try Alternates (Implement Pipelines)
 
 ### Section 6. Final Thoughts & Insights
 ---
@@ -57,6 +57,7 @@ Include a professional README.md. Include:
 - a personalized title
 - an introduction to your project
 - a clickable link to your notebook file.
+- a clickable link to your your peer review Markdown file.
 - Instructions on how to set up your virtual environment and run your notebook locally.
    
 If starting with an assignment README, remove the parts you do not need to present your project.
@@ -67,9 +68,11 @@ If starting with an assignment README, remove the parts you do not need to prese
 Verify your repository contains:
 
 - [ ] Useful .gitignore (that keeps .venv out of GitHub)
-- [ ] Professional Jupyter Notebook with numbered sections   
+- [ ] Professional Jupyter Notebook with numbered sections
+- [ ] Dataset, stored in a data folder.   
 - [ ] Useful README.md
 - [ ] Useful requirements.txt
+- [ ] Peer Review (peer_review.md).
 
 ## Authors
 
@@ -77,8 +80,9 @@ Contributors names and contact info <br>
 @github.com/Data-Git-Hub <br>
 
 ## Version History
+- P6 Init - 0.3 - Add peer_review.md - Modify README.md
 - P6 Init - 0.2 - Add ml-07 framework - Modify README.md - Modify requirements.txt - Modify .gitignore
 - P6 Init - 0.1 - Add requirements.txt
 - P6 Init - 0.0 - Add ml-07.ipynb <br>
 ## Test History  
-- <br>
+- N/A <br>
