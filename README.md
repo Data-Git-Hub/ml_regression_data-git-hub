@@ -172,15 +172,43 @@ See the above guides for troubleshooting and solutions.
 
 ##### 4.3.3. Clustering: Inertia and Silhouette Score
 
-##### 4.3.3.A. Visualizing Optimal Clusters with the Elbow Method Feature Set 3 (Hybrid)
+##### 4.3.3.A. Visualizing Optimal Clusters with the Elbow Method Feature Set 2 (Engineered)
 
-##### 4.3.3.B. Visualizing Cluster Assignments Using PCA Feature Set 3 (Hybrid)
+##### 4.3.3.B. Visualizing Cluster Assignments Using PCA Feature Set 2 (Engineered)
 
 ### Reflection 4: How well did the model perform? Any surprises in the results?
 
 ### Section 5. Improve the Model or Try Alternates (Implement Pipelines)
 
+#### Additional Pipelines for Exploration
+
+#### 5.1. Implement Pipeline 1: Imputer → StandardScaler → Linear Regression
+
+#### 5.2. Implement Pipeline 2: Imputer → Polynomial Features (degree=3) → StandardScaler → Linear Regression
+
+#### 5.3. Implement Pipeline 3: Imputer → StandardScaler → Ridge Regression
+
+#### 5.4. Implement Pipeline 4: Imputer → StandardScaler → Lasso Regression
+
+#### 5.5. Implement Pipeline 5: Imputer → StandardScaler → PCA → Linear Regression
+
+#### 5.6 Compare Performance of All Models Across the Same Performance Metrics
+
+##### 5.6.1. Compare R^2, MAE, RMSE for All 5 Pipelines
+
+##### 5.6.2. Evaluate Classification Metrics for Best Pipeline
+
+### Reflection 5: Which models performed better? How does scaling impact results?
+
 ### Section 6. Final Thoughts & Insights
+
+#### 6.1. Summarize Findings
+
+#### 6.2. Discuss Challenges Faced
+
+#### 6.3. If You Had More Time, What Would You Try Next?
+
+
 
 ### References:
 
@@ -203,6 +231,7 @@ Contributors names and contact info <br>
 @github.com/Data-Git-Hub <br>
 
 ## Version History
+- P6 Sect - 6.0 - Modify ml-07.ipynb, Section 5, Section 6
 - P6 Sect - 4.2 - Modify ml-07.ipynb, Section 4
 - P6 Sect - 4.1 - Modify README.md
 - P6            - Intermediate save and commit to verify last push to GitHub
