@@ -70,28 +70,28 @@ jupyter notebook
 ```
 ### On macOS/Linux
 
-# 1. Clone the repository
+#### 1. Clone the repository
 ```shell
 git clone https://github.com/Data-Git-Hub/ml_regression_data-git-hub.git
 cd ml_regression_data-git-hub
 ```
 
-# 2. Create a virtual environment
+#### 2. Create a virtual environment
 ```shell
 python3 -m venv .venv
 ```
 
-# 3. Activate the environment
+#### 3. Activate the environment
 ```shell
 source .venv/bin/activate
 ```
 
-# 4. Install project dependencies
+#### 4. Install project dependencies
 ```shell
 pip install -r requirements.txt
 ```
 
-# 5. Launch the Jupyter Notebook
+#### 5. Launch the Jupyter Notebook
 ```shell
 jupyter notebook
 ```
@@ -293,6 +293,7 @@ Contributors names and contact info <br>
 @github.com/Data-Git-Hub <br>
 
 ## Version History
+- P6 Finl - 0.0 - Modify README.md
 - P6 Sect - 6.1 - Modify README.md, peer_review.md
 - P6 Sect - 6.0 - Modify ml-07.ipynb, Section 5, Section 6
 - P6 Sect - 4.2 - Modify ml-07.ipynb, Section 4
