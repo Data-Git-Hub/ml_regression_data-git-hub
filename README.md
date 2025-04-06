@@ -148,13 +148,16 @@ See the above guides for troubleshooting and solutions.
 
 #### 3.2. Define X and y
 
-#### Reflection 3: Why did you choose these features? How might they impact predictions or accuracy?
+### Reflection 3: Why did you choose these features? How might they impact predictions or accuracy?
 
 ### Section 4. Train a Model (Linear Regression)
 
 ### Section 5. Improve the Model or Try Alternates (Implement Pipelines)
 
 ### Section 6. Final Thoughts & Insights
+
+### References:
+
 ---
 
 ## README.md (Required)
@@ -186,6 +189,7 @@ Contributors names and contact info <br>
 @github.com/Data-Git-Hub <br>
 
 ## Version History
+- P6 Sect - 4.0 - Modify ml-07.ipynb, Section 4
 - P6 Sect - 3.0 - Modify ml-07.ipynb, Section 3
 - P6 Sect - 2.1 - Modify README.md adding links to Sections
 - P6 Sect - 2.0 - Modify README.md adding links to sections of ml-07.ipynb, Section 2
