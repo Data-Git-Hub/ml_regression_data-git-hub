@@ -195,6 +195,11 @@ Contributors names and contact info <br>
 - P6 Init - 0.1 - Add requirements.txt
 - P6 Init - 0.0 - Add ml-07.ipynb <br>
 ## Test History  
-- N/A <br>
+- Test 1.0 -  <br>
 
 
+
+
+# TEST 1.0
+
+[Go to Section 3: Feature Selection and Justification](https://github.com/Data-Git-Hub/ml_regression_data-git-hub/blob/main/ml-07.ipynb#section-3-feature-selection-and-justification)
