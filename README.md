@@ -152,24 +152,38 @@ See the above guides for troubleshooting and solutions.
 
 ### Section 4. Train a Model (Linear Regression)
 
+#### 4.1. Split the Data into Training and Test Sets Using `train_test_split` (or `StratifiedShuffleSplit` if Class Imbalance is an Issue)
+
+#### 4.2. Train Model Using Scikit-Learn `model.fit()` Method
+
+##### 4.2.1. Coefficient Plots for All Models
+
+##### 4.2.2. Residual Plots for All Models
+
+##### 4.2.3. Predicted vs. Actual Scatter Plots for All Models
+
+#### 4.3. Evalulate Performance, for Example: Regression: R^2, MAE, RMSE; Classification: Accuracy, Precision, Recall, F1-score, Confusion Matrix; Clustering: Inertia, Silhouette Score
+
+##### 4.3.1. Regression: R^2, MAE, RMSE
+
+##### 4.3.2 Classification: Accuracy, Precision, Recall, F1-score, Confusion Matrix* (4.3.2.A.)
+
+##### 4.3.2.A. Confusion Matrices for Classification Evaluation
+
+##### 4.3.3. Clustering: Inertia and Silhouette Score
+
+##### 4.3.3.A. Visualizing Optimal Clusters with the Elbow Method Feature Set 3 (Hybrid)
+
+##### 4.3.3.B. Visualizing Cluster Assignments Using PCA Feature Set 3 (Hybrid)
+
+### Reflection 4: How well did the model perform? Any surprises in the results?
+
 ### Section 5. Improve the Model or Try Alternates (Implement Pipelines)
 
 ### Section 6. Final Thoughts & Insights
 
 ### References:
 
----
-
-## README.md (Required)
-
-Include a professional README.md. Include:
-- a personalized title
-- an introduction to your project
-- a clickable link to your notebook file.
-- a clickable link to your your peer review Markdown file.
-- Instructions on how to set up your virtual environment and run your notebook locally.
-   
-If starting with an assignment README, remove the parts you do not need to present your project.
 ---
 
 ## Repository Checklist
@@ -189,7 +203,9 @@ Contributors names and contact info <br>
 @github.com/Data-Git-Hub <br>
 
 ## Version History
+- P6 Sect - 4.2 - Modify ml-07.ipynb, Section 4
 - P6 Sect - 4.1 - Modify README.md
+- P6            - Intermediate save and commit to verify last push to GitHub
 - P6 Sect - 4.0 - Modify ml-07.ipynb, Section 4
 - P6 Sect - 3.0 - Modify ml-07.ipynb, Section 3
 - P6 Sect - 2.1 - Modify README.md adding links to Sections
