@@ -1,5 +1,7 @@
 # ml_regression_data-git-hub
-Final Project: Regression Analysis - Predicting Life Expectancy Using Regression Analysis: A Data-Driven Approach
+
+[Final Project: Regression Analysis - Predicting Life Expectancy Using Regression Analysis: A Data-Driven Approach](https://github.com/Data-Git-Hub/ml_regression_data-git-hub/blob/main/ml-07.ipynb)
+
 
 ## Introduction
 
@@ -36,7 +38,7 @@ See the above guides for troubleshooting and solutions.
 
 ## Project Outline
 
-[Introduction and Background](https://github.com/Data-Git-Hub/ml_regression_data-git-hub/blob/main/ml-07.ipynb#introduction-and-background)
+### Introduction and Background
 
 ### Analytical Framework and Methodology
 
@@ -50,8 +52,7 @@ See the above guides for troubleshooting and solutions.
 
 #### Expected Outcomes and Significance
 
-[Section 1: Import and Inspect the Data](https://github.com/Data-Git-Hub/ml_regression_data-git-hub/blob/main/ml-07.ipynb#section-1-import-and-inspect-the-data)
-
+### Section 1. Import and Inspect the Data
 
 #### 1.1. Load the Dataset and Display the First 10 Rows.
 
@@ -137,6 +138,18 @@ See the above guides for troubleshooting and solutions.
 
 ### Section 3. Feature Selection and Justification
 
+#### 3.1. Choose Features and Target
+
+##### 3.1.1. Core Health and Socioeconomic Predictors
+
+##### 3.1.2. Engineered Composite Indicators
+
+##### 3.1.3. Mixed Predictors: Top Statistical plus Engineered
+
+#### 3.2. Define X and y
+
+#### Reflection 3: Why did you choose these features? How might they impact predictions or accuracy?
+
 ### Section 4. Train a Model (Linear Regression)
 
 ### Section 5. Improve the Model or Try Alternates (Implement Pipelines)
@@ -173,6 +186,7 @@ Contributors names and contact info <br>
 @github.com/Data-Git-Hub <br>
 
 ## Version History
+- P6 Sect - 3.0 - Modify ml-07.ipynb, Section 3
 - P6 Sect - 2.1 - Modify README.md adding links to Sections
 - P6 Sect - 2.0 - Modify README.md adding links to sections of ml-07.ipynb, Section 2
 - P6 Sect - 1.0 - Add data folder, life_expectancy_data.csv - Modify ml-07.ipynb - Intro, Section 1
@@ -182,3 +196,5 @@ Contributors names and contact info <br>
 - P6 Init - 0.0 - Add ml-07.ipynb <br>
 ## Test History  
 - N/A <br>
+
+
