@@ -189,6 +189,7 @@ Contributors names and contact info <br>
 @github.com/Data-Git-Hub <br>
 
 ## Version History
+- P6 Sect - 4.1 - Modify README.md
 - P6 Sect - 4.0 - Modify ml-07.ipynb, Section 4
 - P6 Sect - 3.0 - Modify ml-07.ipynb, Section 3
 - P6 Sect - 2.1 - Modify README.md adding links to Sections
