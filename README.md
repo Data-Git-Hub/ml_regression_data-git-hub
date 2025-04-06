@@ -17,7 +17,12 @@ For example, a company may want to predict a car's fuel efficiency based on its 
 Regression analysis helps identify and quantify these relationships between numerical features, providing insights that can be used for forecasting and decision-making. <br>
 
 This project demonstrates your ability to apply regression modeling techniques to a real-world dataset. You will: <br>
-TBD.
+
+This project successfully demonstrates the ability to apply regression modeling techniques to a real-world dataset by executing a complete end-to-end workflow. Beginning with the WHO Life Expectancy dataset, I explored, cleaned, and transformed the data, engineered meaningful features, and implemented multiple regression models to predict life expectancy based on socioeconomic and health-related factors. <br>
+
+Through this process, I evaluated five distinct regression pipelines, including linear regression, polynomial regression, and regularized models such as Ridge and Lasso. I used appropriate performance metrics—R², MAE, and RMSE—to assess model accuracy and compare results. The strongest model achieved over 91% explanatory power, demonstrating not only technical proficiency in regression modeling, but also the ability to select, transform, and scale features for improved performance. <br>
+
+Additionally, the project incorporated classification and clustering evaluations, showing versatility in applying regression outputs to binary outcomes and unsupervised learning. Overall, the project reflects a strong grasp of regression techniques, data preprocessing, performance evaluation, and real-world application of predictive modeling. <br>
 
 ## Dataset 
 
@@ -34,13 +39,70 @@ A concise version is provided at [WORKFLOW_GUIDE.md](./docs/WORKFLOW_GUIDE.md)
 **Important:** VS Code + Pylance may fail to recognize installed packages in Jupyter notebooks.  
 See the above guides for troubleshooting and solutions.  
 
+## Setup Instructions for Running the Project Locally
+
+### On Windows:
+
+#### 1. Clone the repository
+```shell
+git clone https://github.com/Data-Git-Hub/ml_regression_data-git-hub.git
+cd ml_regression_data-git-hub
+```
+
+#### 2. Create a virtual environment
+```shell
+python -m venv .venv
+```
+
+#### 3. Activate the environment
+```shell
+.venv\Scripts\activate
+```
+
+#### 4. Install project dependencies
+```shell
+pip install -r requirements.txt
+```
+
+#### 5. Launch the Jupyter Notebook
+```shell
+jupyter notebook
+```
+### On macOS/Linux
+
+# 1. Clone the repository
+```shell
+git clone https://github.com/Data-Git-Hub/ml_regression_data-git-hub.git
+cd ml_regression_data-git-hub
+```
+
+# 2. Create a virtual environment
+```shell
+python3 -m venv .venv
+```
+
+# 3. Activate the environment
+```shell
+source .venv/bin/activate
+```
+
+# 4. Install project dependencies
+```shell
+pip install -r requirements.txt
+```
+
+# 5. Launch the Jupyter Notebook
+```shell
+jupyter notebook
+```
+
 ---
 
-## Project Outline
+### Project Outline
 
-### Introduction and Background
+#### Introduction and Background
 
-### Analytical Framework and Methodology
+#### Analytical Framework and Methodology
 
 #### Exploratory Data Analysis (EDA)
 
@@ -52,7 +114,7 @@ See the above guides for troubleshooting and solutions.
 
 #### Expected Outcomes and Significance
 
-### Section 1. Import and Inspect the Data
+#### Section 1. Import and Inspect the Data
 
 #### 1.1. Load the Dataset and Display the First 10 Rows.
 
@@ -62,9 +124,9 @@ See the above guides for troubleshooting and solutions.
 
 ##### 1.2.2. Display Summary Statistics
 
-### Reflection 1: What do you notice about the dataset? Are there any data issues?
+#### Reflection 1: What do you notice about the dataset? Are there any data issues?
 
-### Section 2. Data Exploration and Preparation
+#### Section 2. Data Exploration and Preparation
 
 #### 2.1. Explore Data Patterns and Distribution
 
@@ -134,9 +196,9 @@ See the above guides for troubleshooting and solutions.
 
 ##### 2.3.3.2 Normalize Data (Min-Max Normalization)
 
-### Reflection 2: What patterns or anomalies do you see? Do any features stand out? What preprocessing steps were necessary to clean and improve the data? Did you create or modify any features to improve performance?
+#### Reflection 2: What patterns or anomalies do you see? Do any features stand out? What preprocessing steps were necessary to clean and improve the data? Did you create or modify any features to improve performance?
 
-### Section 3. Feature Selection and Justification
+#### Section 3. Feature Selection and Justification
 
 #### 3.1. Choose Features and Target
 
@@ -148,9 +210,9 @@ See the above guides for troubleshooting and solutions.
 
 #### 3.2. Define X and y
 
-### Reflection 3: Why did you choose these features? How might they impact predictions or accuracy?
+#### Reflection 3: Why did you choose these features? How might they impact predictions or accuracy?
 
-### Section 4. Train a Model (Linear Regression)
+#### Section 4. Train a Model (Linear Regression)
 
 #### 4.1. Split the Data into Training and Test Sets Using `train_test_split` (or `StratifiedShuffleSplit` if Class Imbalance is an Issue)
 
@@ -176,9 +238,9 @@ See the above guides for troubleshooting and solutions.
 
 ##### 4.3.3.B. Visualizing Cluster Assignments Using PCA Feature Set 2 (Engineered)
 
-### Reflection 4: How well did the model perform? Any surprises in the results?
+#### Reflection 4: How well did the model perform? Any surprises in the results?
 
-### Section 5. Improve the Model or Try Alternates (Implement Pipelines)
+#### Section 5. Improve the Model or Try Alternates (Implement Pipelines)
 
 #### Additional Pipelines for Exploration
 
@@ -198,9 +260,9 @@ See the above guides for troubleshooting and solutions.
 
 ##### 5.6.2. Evaluate Classification Metrics for Best Pipeline
 
-### Reflection 5: Which models performed better? How does scaling impact results?
+#### Reflection 5: Which models performed better? How does scaling impact results?
 
-### Section 6. Final Thoughts & Insights
+#### Section 6. Final Thoughts & Insights
 
 #### 6.1. Summarize Findings
 
@@ -208,9 +270,9 @@ See the above guides for troubleshooting and solutions.
 
 #### 6.3. If You Had More Time, What Would You Try Next?
 
+#### Reflection 6: What did you learn from this project?
 
-
-### References:
+#### References:
 
 ---
 
@@ -223,7 +285,7 @@ Verify your repository contains:
 - [x] Dataset, stored in a data folder.   
 - [x] Useful README.md
 - [x] Useful requirements.txt
-- [ ] Peer Review (peer_review.md).
+- [x] Peer Review (peer_review.md).
 
 ## Authors
 
@@ -231,6 +293,7 @@ Contributors names and contact info <br>
 @github.com/Data-Git-Hub <br>
 
 ## Version History
+- P6 Sect - 6.1 - Modify README.md, peer_review.md
 - P6 Sect - 6.0 - Modify ml-07.ipynb, Section 5, Section 6
 - P6 Sect - 4.2 - Modify ml-07.ipynb, Section 4
 - P6 Sect - 4.1 - Modify README.md
@@ -244,6 +307,11 @@ Contributors names and contact info <br>
 - P6 Init - 0.2 - Add ml-07 framework - Modify README.md - Modify requirements.txt - Modify .gitignore
 - P6 Init - 0.1 - Add requirements.txt
 - P6 Init - 0.0 - Add ml-07.ipynb <br>
+- 
 ## Test History  
 - Test 1.0 -  <br>
 - Test 1.1 - Removal of test link <br>
+
+## Peer Review
+
+[Peer Review - Predicting Medical Insurance Charges with Regression](https://github.com/Data-Git-Hub/ml_regression_data-git-hub/blob/main/peer_review.md)
